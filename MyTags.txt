@@ -970,27 +970,37 @@ YWB [
 	)
 
 	MISSION_CONFIG_INFO (
-		Unk0|False
-		Unk1|False
-		Unk2|False
-		Unk3|False
-		Unk4|False
-		Unk5|False
-		Unk6|False
-		Unk7|False
-		Unk8|False
-		Unk9|False
-		Unk10|False
+		mission_ID|True
+		Mission_folder|True
+		Unk2|True
+		map_ID|True
+		Unk4|True
+		Mission_rank|True
+		Unk6|True
+		Unk7|True
+		Mission_recommended_level|True
+		Mission_Time_Limit|True
+		mission_reward_ID|True
 		Unk11|False
 		Unk12|False
-		Unk13|False
-		Unk14|False
-		Unk15|False
-		Unk16|False
+		Unk13|True
+		Mission_Number|True
+		Mission_Icon|True
+		Unk16|True
 		Unk17|False
-		NameTextID|False
-		ObjectiveTextID|False
-		InfoTextID|False
+		NameTextID|True
+		ObjectiveTextID|True
+		InfoTextID|True
+		Move_out_Description|True
+		Unk22|False
+		Unk23|False
+		Unk24|True
+		Mission_Music|True
+		Unk26|True
+		Unk27|True
+		Unk28|True
+		Unk29|True
+		Game_version|True
 	)
 
 	CHARA_PARAM_INFO_LIST_BEG (
@@ -1055,6 +1065,22 @@ YWB [
 
 	CHARA_ABLITY_BUFF_EFFECT_INFO (
 		EffectID|False
+	)
+
+	MISSION_REWARD_INFO (
+		Unk0|False
+		Unk1|False
+		Unk2|False
+		Unk3|False
+		Unk4|True
+		Unk5|True
+	)
+
+	BOSS_MISSION_CONFIG_INFO (
+		Unk0|True
+		Unk1|True
+		Unk2|True
+		Unk3|True
 	)
 ]
 
@@ -1601,7 +1627,7 @@ YW3 [
 		Unk16|False
 		CreatureDictTextId|True
 	)
-	
+
 	ITEM_EQUIPMENT (
 		ItemID|True
 		NameID|True
